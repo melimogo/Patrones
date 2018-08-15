@@ -1,0 +1,56 @@
+.udem_question {
+    border: 1px dotted #aaa;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.udem_answer {
+    clear: both;
+}
+
+.udem_answer_explanation_state {
+	font-weight: bold;
+	color: #900;
+}
+
+div.udem_answer_explanation_state a, .discussion_box .ui-state-highlight a {
+    color: #0000f5;
+}
+
+.udem_answer_explanation {
+	border: 1px solid lightSteelBlue;
+	background-color: #EBEBE4;
+    padding: 10px;
+}
+
+.udem_allowed_explanations {
+    color: #888;
+    font-style: italic;
+}
+
+#udem_explanation_loading_window {
+    z-index:10000;
+    position: fixed;
+}
+
+#udem_explanation_loading_window img {
+    background-color: #000;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    opacity: 1;
+}
+
+.udem_discussion_review {
+    width: 100%;
+}
+
+.udem_discussion_review th {
+    background-color: #EBEBE4;
+    border: 1px solid #333333;
+    padding: 5px;
+}
+
+.udem_discussion_review .comment {
+    display: none;
+}
